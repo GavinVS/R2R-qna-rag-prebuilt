@@ -1,3 +1,6 @@
+import googlecloudprofiler
+googlecloudprofiler.start(service="r2r-qna")
+
 from r2r.main import E2EPipelineFactory, R2RConfig
 
 # Creates a pipeline with default configuration
